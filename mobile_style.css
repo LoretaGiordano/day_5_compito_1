@@ -1,0 +1,186 @@
+body{
+    margin: auto;
+    background-color: #393d41;
+    width: 500px;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65em ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: black;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+header img{
+    width: 10em;
+    background-position: center;
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    height: 3220px;
+}
+
+.section-1{
+    width: 404px;
+    height: 400px;
+    background-image: url(./Esercizio/images/banner.jpg);
+    background-size: cover;
+    padding: 3rem;
+    text-align: center;
+    background-position: center;
+}
+
+.section-2 h1{
+    font-size: 2.6em;
+    line-height: 1em ;
+    font-weight: 700;
+    margin: 2rem;
+    color: #25a2c3;
+}
+
+.section-1 p {
+    font-size: 1.5em;
+    margin-bottom: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #f04c2f ;
+    border: none;
+    color:white ;
+    border-radius: 0.3em;
+    font-weight: 600;
+}
+
+.section-2{
+    text-align: center;
+    padding: 3rem;
+}
+
+h3{
+    font-size: 1.5em;
+    line-height: 1em ;
+    font-weight: 700;
+    margin: 2rem;
+    color: #25a2c3;
+}
+
+.section-2 p {
+    font-size: 1.2em;
+    margin-bottom: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-2 img{
+    width: 18rem;
+    border-radius: 100%;
+}
+
+.section-3{
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    width: 437px;
+    height: 290px;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.section-3 h1{
+    font-size: 2.4rem;
+    color: white;
+    line-height: 1em ;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.section-3 :nth-child(2){
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.section-3 :nth-child(3){
+    font-size: 1.2em;
+}
+
+.section-3 :nth-child(4){
+    font-size: 0.80em;
+}
+
+.section-4{
+    width: 400px;
+    height: auto;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+article{
+    width: 400px;
+    height: auto;
+    margin-bottom: 3rem;
+    border-color: #dee1e3;
+    border-style: solid;
+    border-width: 0.10em;
+    border-collapse: collapse;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.foto-1{
+    width: 400px;
+    height: 300px;
+    background-image: url(./Esercizio/images/foto1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-2{
+    width: 400px;
+    height: 300px;
+    background-image: url(./Esercizio/images/foto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-3{
+    width: 400px;
+    height: 300px;
+    background-image: url(./Esercizio/images/foto3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.testo{
+    width: 368px;
+    height: 160px;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+}
+
+.testo h4{
+    font-size: 1.2em;
+    line-height: 1em ;
+    font-weight: 700;
+    color: #25a2c3;
+    padding-bottom: 1.5rem;
+}
+
+.testo p {
+    font-size: 1em;
+    margin-bottom: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

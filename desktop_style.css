@@ -1,0 +1,255 @@
+body{
+    margin: auto;
+    background-color: #393d41;
+    width: 1920px;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65em ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: black;
+    width: 1842px;
+    height: 150px;
+    text-align: left;
+    align-content: center;
+    padding-left: 5rem;
+}
+
+header img{
+    width: 9em;
+    background-position: center;
+}
+
+main{
+    background-color: white;
+    width: 1920px;
+    height: 3300px;
+}
+
+.section-1{
+    width: 1920px;
+    height: 400px;
+    background-image: url(./Esercizio/images/banner.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.section-1 h1{
+    font-size: 2.6em;
+    line-height: 1em ;
+    font-weight: 700;
+    color: #25a2c3;
+}
+
+.section-1 p {
+    font-size: 1.2em;
+    line-height: 1.65em ;
+    margin-bottom: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #f04c2f ;
+    border: none;
+    color:white ;
+    border-radius: 0.3em;
+    font-weight: 600;
+}
+
+.section-2{
+    text-align: left;
+    width: 1920px;
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+}
+
+.section-2 img{
+    background-color: aquamarine;
+    width: 30rem;
+    border-radius: 100%;
+}
+
+.section-2-photo{
+    display: inline-block;
+    width: 940px;
+    height: 700px;
+    text-align: right;
+    align-content: center;
+    float: left;
+}
+
+.section-2 .section-2-text{
+    display: inline-block;
+    width: 922px;
+    height: 700px;
+    padding-left: 3em;
+    align-content: center;
+
+}
+
+h3{
+    font-size: 1.75em;
+    line-height: 1.25em ;
+    font-weight: 700;
+    color: #25a2c3;
+    margin-bottom: 0.5 em;
+}
+
+.section-2 p {
+    font-size: 1em;
+    line-height: 1.65em ;
+    margin-bottom: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-3{
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    width: 1857px;
+    height: 290px;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.section-3 h1{
+    font-size: 2.4rem;
+    color: white;
+    line-height: 1em ;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.section-3 :nth-child(2){
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.section-3 :nth-child(3){
+    font-size: 1.2em;
+}
+
+.section-3 :nth-child(4){
+    font-size: 0.80em;
+}
+
+.section-4{
+    width: 400px;
+    height: auto;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+    display: inline;
+}
+
+article{
+    width: 400px;
+    height: auto;
+    margin-bottom: 3rem;
+    border-color: #dee1e3;
+    border-style: solid;
+    border-width: 0.10em;
+    border-collapse: collapse;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    display: inline-block;
+}
+
+.foto-1{
+    width: 400px;
+    height: 300px;
+    background-image: url(./Esercizio/images/foto1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-2{
+    width: 400px;
+    height: 300px;
+    background-image: url(./Esercizio/images/foto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-3{
+    width: 400px;
+    height: 300px;
+    background-image: url(./Esercizio/images/foto3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.testo{
+    width: 368px;
+    height: 160px;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+}
+
+.testo h4{
+    font-size: 1.2em;
+    line-height: 1em ;
+    font-weight: 700;
+    color: #25a2c3;
+    padding-bottom: 1.5rem;
+}
+
+.testo p {
+    font-size: 1.2em;
+    line-height: 1.65em ;
+    margin-bottom: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer{
+    width: 404.5px;
+    height: 350px;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 3rem;
+    background-color: #25a2c3;
+    text-align: center;
+    color:#c8e7f0;
+}
+
+footer h1{
+    font-size: 2.6em;
+    line-height: 1em ;
+    font-weight: 700;
+    margin-bottom: 1em;
+    color: white;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer :nth-child(4){
+    margin-bottom: 2em;
+}
+
+hr{
+    width: 12em;
+    margin-bottom: 2em;
+}
+
+footer .fas{
+    margin-right: 0.5em;
+    color: white;
+}
+
+a{
+    color:#c8e7f0;
+}
